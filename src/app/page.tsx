@@ -1,8 +1,7 @@
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
 import SectionHero from "./components/SectionHero";
-import SectionPlans from "./components/SectionPlans";
-import SectionServices from "./components/SectionServices";
+import SectionPlans from "./components/SectionServices";
+import SectionTools from './components/SectionTools'
 
 export default function Home() {
   return (
@@ -11,9 +10,7 @@ export default function Home() {
 
       <SectionHero />
       <SectionPlans />
-      <SectionServices />
-
-      <Footer />
+      <SectionTools />
     </div>
   );
 }

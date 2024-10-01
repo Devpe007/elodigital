@@ -20,15 +20,15 @@ export default function Navbar() {
 
         <ul className={`flex flex-col lg:flex-row gap-4 lg:gap-8 ${isOpen ? "block" : "hidden"} lg:flex`}>
           <li>
-            <Link href="#section-hero">QUEM SOMOS</Link>
-          </li>
-
-          <li>
-            <Link href="#plans">PLANOS</Link>
+            <Link href="#home">HOME</Link>
           </li>
 
           <li>
             <Link href="#services">SERVIÇOS</Link>
+          </li>
+
+          <li>
+            <Link href="#tools">FERRAMENTAS</Link>
           </li>
 
           <li>

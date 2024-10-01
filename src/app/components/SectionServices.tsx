@@ -1,27 +1,30 @@
-import Image from 'next/image'
+import Card from "./Card";
 
-import chat from '../assets/chat.svg'
-
-export default function SectionServices() {
+export default function SectionPlans() {
   return (
-    <div id="services" className="flex justify-center bg-primary-beige">
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center mt-4 mb-4 w-9/12 lg:w-[1000px] min-h-screen">
-        <section className="mb-16 lg:mb-0 lg:w-[400px]">
-          <h1 className='text-4xl lg:text-5xl mb-4 text-primary-blue'>Impulsione seu negócio com IA</h1>
-
-          <p className="text-sm lg:text-lg text-black mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-
-          <p className="text-sm lg:text-lg text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-        </section>
-
-        <Image src={chat} alt="chat image" className='mt-4 lg:mt-0 lg:h-[450px] lg:w-[450px]' />
+    <section id="services" className="flex flex-col items-center justify-center bg-primary-orange">
+      <div className="lg:w-[1000px] px-4 mt-16 mb-16">
+        <h3 className="text-white text-2xl text-center">Nós oferecemos muito mais do que a simples gestão de anúncios. Com foco em toda a jornada de venda, nossos serviços abrangem desde a criação de estratégias personalizadas até a implementação de soluções práticas que impactam diretamente os resultados financeiros da sua empresa.</h3>
       </div>
-    </div>
+
+      <div className="flex flex-col lg:flex-row gap-4 justify-between items-center lg:w-[1000px] ">
+        <Card title="Consultoria Estratégica">
+          Desenvolvemos planos de ação completos, ajustados à sua realidade de mercado, garantindo que cada passo seja otimizado para gerar resultados.
+        </Card>
+
+        <Card title="Acompanhamento Contínuo">
+          Estamos ao seu lado em cada etapa da jornada de venda, ajustando e otimizando conforme necessário para que você alcance o máximo de potencial.
+        </Card>
+
+        <Card title="Otimização da Experiência do Consumidor">
+          Atuamos em cada um dos 5 As da jornada do consumidor, melhorando a interação em cada ponto de contato e maximizando as conversões.
+        </Card>
+      </div>
+
+      <div className="lg:w-[500px] px-6 mt-16 mb-16">
+        <h4 className="text-white text-xl text-center">Transformamos a forma como sua empresa vende online, oferecendo mais do que soluções. Somos parceiros no seu crescimento.</h4>
+      </div>
+
+    </section>
   )
 }
