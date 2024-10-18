@@ -9,15 +9,15 @@ export default function SectionServices() {
 
       <div className="flex flex-col lg:flex-row gap-4 justify-between items-center lg:w-[1000px] ">
         <Card title="Consultoria Estratégica">
-          Desenvolvemos planos de ação completos, ajustados à sua realidade de mercado, garantindo que cada passo seja otimizado para gerar resultados.
+          Desenvolvemos <span className="text-primary-orange">planos de ação</span> completos, ajustados à sua realidade de mercado, garantindo que cada passo seja <span className="text-primary-orange">otimizado</span> para gerar <span className="text-primary-orange">resultado</span>.
         </Card>
 
         <Card title="Acompanhamento Contínuo">
-          Estamos ao seu lado em cada etapa da jornada de venda, ajustando e otimizando conforme necessário para que você alcance o máximo de potencial.
+          Estamos ao seu lado em cada etapa da jornada de <span className="text-primary-orange">venda</span>, ajustando e otimizando conforme necessário para que você <span className="text-primary-orange">alcance</span> o máximo de <span className="text-primary-orange">potencial</span>.
         </Card>
 
         <Card title="Otimização da Experiência do Consumidor">
-          Atuamos em cada um dos 5 As da jornada do consumidor, melhorando a interação em cada ponto de contato e maximizando as conversões.
+          Atuamos em cada um dos <span className="text-primary-orange">5 As</span> da jornada do consumidor, melhorando a <span className="text-primary-orange">interação</span> em cada ponto de contato e <span className="text-primary-orange">maximizando as conversões</span>.
         </Card>
       </div>
 
