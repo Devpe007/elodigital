@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-export default function SectionPlans() {
+export default function SectionServices() {
   return (
     <section id="services" className="flex flex-col items-center justify-center bg-primary-orange">
       <div className="lg:w-[1000px] px-4 mt-16 mb-16">

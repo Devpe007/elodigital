@@ -17,7 +17,7 @@ export default function Slider() {
   ]
 
   return (
-    <div className='flex justify-center items-center w-full ml-[36px] lg:w-[1000px]'>
+    <div className='flex justify-center items-center ml-[36px] lg:w-[1000px]'>
       <Swiper
         breakpoints={{
           1024: {

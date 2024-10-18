@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
 import SectionHero from "./components/SectionHero";
 import SectionPlans from "./components/SectionServices";
@@ -11,6 +12,8 @@ export default function Home() {
       <SectionHero />
       <SectionPlans />
       <SectionTools />
+
+      <Footer />
     </div>
   );
 }
