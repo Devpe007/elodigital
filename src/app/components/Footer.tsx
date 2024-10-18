@@ -7,10 +7,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 bg-gray-900">
-      <h4 className="mt-4 text-xl text-white">Redes sociais</h4>
-
-      <section className="flex gap-4 mt-2">
+    <div id='contact-us' className="flex flex-col items-center justify-center gap-4 bg-gray-900">
+      <section className="flex gap-4 mt-4">
         <div>
           <Link href='https://www.instagram.com/agenciaelo.digital/'>
             <Image src={instaLogo} alt="logo instagram" width={26} />
@@ -27,6 +25,10 @@ export default function Footer() {
       <section className="flex items-center">
         <Image src={logoElo} alt="logo" width={56} />
         <h4 className="text-white">ELO DIGITAL</h4>
+      </section>
+
+      <section className="mb-4">
+        <span className="text-white">© 2024</span>
       </section>
     </div>
   )

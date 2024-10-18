@@ -32,11 +32,7 @@ export default function Navbar() {
           </li>
 
           <li>
-            <Link href="#questions">DUVIDAS</Link>
-          </li>
-
-          <li>
-            <Link href="#">CONTATO</Link>
+            <Link href="#contact-us">CONTATO</Link>
           </li>
         </ul>
       </nav>
