@@ -14,7 +14,7 @@ export default function Footer() {
           <h4 className="text-white">ELO DIGITAL</h4>
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 items-center">
           <Link href='https://www.instagram.com/agenciaelo.digital/'>
             <Image src={instaLogo} alt="logo instagram" width={26} />
           </Link>
@@ -22,11 +22,13 @@ export default function Footer() {
           <Link href='https://www.facebook.com/elodigitalagencia'>
             <Image src={facebookLogo} alt="logo facebook" width={27} />
           </Link>
+
+          <p className="text-white">(17)991606224</p>
         </div>
       </section>
 
       <section className="mb-4">
-        <span className="text-white">© 2024</span>
+        <span className="text-white">© Agência Elo Digital 2024</span>
       </section>
     </div>
   )
